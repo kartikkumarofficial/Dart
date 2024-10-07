@@ -40,7 +40,7 @@ void addTask() {
   String? task = stdin.readLineSync();
   if (task != null && task.isNotEmpty) {
     if (tasks.contains(task)) {
-      print('Task already exists.');
+      print('pehle se hai ye task yaar');
     } else {
       tasks.add(task);
       print('Task added.');
